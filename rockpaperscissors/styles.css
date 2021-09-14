@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Asap', sans-serif;
+    background: #1f2937;
+}
+
+/* ******Header-css******* */
+
+header{
+    padding: 20px 0;
+    background-color: rgb(0, 238, 255);
+    margin-bottom: 20px;
+}
+
+header h2{
+    text-align: center;
+}
+
+
+.container{
+    margin-bottom: 50px;
+    text-align: center;
+
+}
+
+.container div{
+    display: inline-block;
+    /* margin:0 120px; */
+    
+}
+
+.user-img{
+    margin-right: 40px;
+}
+.comp-img{
+    margin-left: 40px;
+    
+}
+.span-div{
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    bottom:50px;
+    color:white;
+}
+
+.user-span{
+    padding-right: 10px;
+}
+
+.comp-span{
+    padding-left: 10px;
+}
+
+.user-img >img{
+    width:100px;
+    border-radius: 50%;
+}
+
+.comp-img > img{
+    width:110px;
+    border-radius: 50%;
+    padding-bottom: 5px;
+}
+
+
+/* ********************elem-div css************************ */
+
+.elem > div{
+    display: inline-block;
+    margin-right: 20px;
+}
+.elem{
+    text-align: center;
+}
+
+.elem div img{
+    width: 200px;
+    border-radius: 100%;
+}
+
+.p-tag{
+    color:white;
+    text-align: center;
+    //font-family: sans-serif;
+    padding-top:30px;
+    font-size:40px;
+    letter-spacing:1px;
+}
+
+.reset-button{
+    /* margin-top: 30px;
+    padding:0 30px;
+   position:relative ;
+   left:600px;
+    text-align:center; */
+    //margin:0 auto;
+    margin-top:30px;
+    margin-bottom:20px;
+    text-align: center;
+   // word-spacing:2rem;
+}
+.reset{
+    background: black;
+    color:white;
+    font-size:20px;
+    letter-spacing:2px;
+    width: 200px;
+    border:2px solid black;
+    border-radius: 10px;
+    opacity: 0.4;
+}
+
+.reset:hover{
+    background:red;
+}
+
+.show-tag{
+    color:blanchedalmond;
+    display: block;
+}
+
+.hide-tag{
+    display: none;
+}
+
+.winner{
+    border-radius: 35%;
+    background-color: green;
+}
+
+.userwon{
+    background: green;
+}
+
+.compwon{
+    background: red;
+}
